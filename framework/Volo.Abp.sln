@@ -361,6 +361,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.Http.Tests", "test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.RavenDB", "src\Volo.Abp.RavenDB\Volo.Abp.RavenDB.csproj", "{96E8CE32-EE8C-44DD-9B65-107AA0BF4968}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.RavenDB.Tests", "test\Volo.Abp.RavenDB.Tests\Volo.Abp.RavenDB.Tests.csproj", "{23281B7E-F355-46B1-A77D-4479663D5543}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1075,6 +1077,10 @@ Global
 		{96E8CE32-EE8C-44DD-9B65-107AA0BF4968}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96E8CE32-EE8C-44DD-9B65-107AA0BF4968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96E8CE32-EE8C-44DD-9B65-107AA0BF4968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23281B7E-F355-46B1-A77D-4479663D5543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23281B7E-F355-46B1-A77D-4479663D5543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23281B7E-F355-46B1-A77D-4479663D5543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23281B7E-F355-46B1-A77D-4479663D5543}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1257,6 +1263,7 @@ Global
 		{00D07595-993C-40FC-BD90-0DD6331414D3} = {447C8A77-E5F0-4538-8687-7383196D04EA}
 		{A37BFEB5-7C57-4CDC-93B8-B5CE4BB9ACE1} = {447C8A77-E5F0-4538-8687-7383196D04EA}
 		{96E8CE32-EE8C-44DD-9B65-107AA0BF4968} = {5DF0E140-0513-4D0D-BE2E-3D4D85CD70E6}
+		{23281B7E-F355-46B1-A77D-4479663D5543} = {447C8A77-E5F0-4538-8687-7383196D04EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB97ECF4-9A84-433F-A80B-2A3285BDD1D5}

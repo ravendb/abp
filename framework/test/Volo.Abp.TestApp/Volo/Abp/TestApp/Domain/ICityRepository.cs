@@ -5,7 +5,7 @@ using Volo.Abp.Domain.Repositories;
 
 namespace Volo.Abp.TestApp.Domain
 {
-    public interface ICityRepository : IBasicRepository<City, Guid>
+    public interface ICityRepository : IBasicRepository<City>
     {
         Task<City> FindByNameAsync(string name);
 
