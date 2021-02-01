@@ -27,7 +27,7 @@ namespace Volo.Abp.RavenDB.Microsoft.Extensions.DependencyInjection
             return services.AddScoped(sp => sp.GetRequiredService<IDocumentStore>().OpenAsyncSession());
         }
 
-        public static IServiceCollection AddRavenbDbContext<TRavenDbContext>(this IServiceCollection services, Action<IAbpRavenDbContextRegistrationOptionsBuilder> optionsBuilder = null) //Created overload instead of default parameter
+        public static IServiceCollection AddRavenDbContext<TRavenDbContext>(this IServiceCollection services, Action<IAbpRavenDbContextRegistrationOptionsBuilder> optionsBuilder = null) //Created overload instead of default parameter
             where TRavenDbContext : AbpRavenDbContext
         {
             var options = new AbpRavenDbContextRegistrationOptions(typeof(TRavenDbContext), services);
